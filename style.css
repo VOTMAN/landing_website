@@ -2,12 +2,78 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'IBM Plex Mono', monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'IBM Plex Mono', monospace, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column; 
+}
+
+img {
+  width: 380px;
+  height: auto;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
+li {
+  list-style-type: none;
+  padding: 20px 10px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-logo {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.header ul {
+  display: flex;
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.right {
+  display:flex;
+}
+
+.upper-content {
+  background: #1F2937;
+  color: #FFFFFF;
+  padding: 20px 10px; 
+  display: flex;
+  justify-content: space-;
+  padding-top: 7rem;
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: start;
+  gap: 20px;
+}
+
+.content button {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: auto;
+  background: rgb(0, 117, 212);
+  color: white;
+  border: none;
+  border-radius: 8px;  
+}
+
+
 
