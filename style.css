@@ -44,36 +44,96 @@ a {
 }
 
 .right {
-  display:flex;
-}
-
-.upper-content {
-  background: #1F2937;
-  color: #FFFFFF;
-  padding: 20px 10px; 
   display: flex;
-  justify-content: space-;
-  padding-top: 7rem;
 }
 
-.content {
+.container {
+  display: flex;  
+  align-items: cente;
+  justify-content: center;
+  background: #317777;
+  color: white;
+  padding-top: 10px;
+  gap: 8px;
+  /* background-image: url(./img/Top.webp);
+  background-size: cover;*/
+}
+
+.container button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100px;
+  height: auto;
+}
+
+img {
+  max-width: 90%;
+  max-height:96%;
+  border: 1px solid crimson;
+}
+
+.text {
+  padding: 10px;
+  text-align: center;
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-evenly;
-  align-items: start;
-  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
-.content button {
+.items {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.items div {
+  width: 300px;
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.items .stuff {
+  
+  text-align: center;
+  
+}
+
+.stuff {
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  text-align: center;
+}
+
+.img {
+  height: 50%;
+  width: auto;
+  border-radius: 8px;
+  border: none;
+}
+
+.footer-text {
+  margin-top: auto;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
-  width: 120px;
-  height: auto;
-  background: rgb(0, 117, 212);
-  color: white;
-  border: none;
-  border-radius: 8px;  
+  align-items: center;
+  background: #22a37d;
 }
 
-
-
+.footer-text p {
+  color: white;
+}
