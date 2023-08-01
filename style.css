@@ -169,7 +169,17 @@ img {
   display: flex;
 }
 
+.box {
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  width: 500px;
+  gap: 8px;
+}
 
+.box h3 {
+  font-size: 25px;
+}
 
 .footer-text {
   margin-top: auto;
