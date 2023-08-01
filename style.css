@@ -38,9 +38,20 @@ a {
 
 .header ul {
   display: flex;
-  background-color: #1F2937;
+  background-color: #424a79;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.right-links {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.hero-button {
+  border: none;
+  border-radius: 8px;
+  background-color: #3882f6;
 }
 
 .right {
@@ -51,12 +62,10 @@ a {
   display: flex;  
   align-items: cente;
   justify-content: center;
-  background: #317777;
+  background: #1f2947;
   color: white;
   padding-top: 10px;
   gap: 8px;
-  /* background-image: url(./img/Top.webp);
-  background-size: cover;*/
 }
 
 .container button {
@@ -70,15 +79,17 @@ img {
   max-width: 90%;
   max-height:96%;
   border: 1px solid crimson;
+  flex: 1 1 0;
 }
 
 .text {
   padding: 10px;
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
+  flex: 0;
 }
 
 .items {
@@ -122,7 +133,30 @@ img {
   height: 50%;
   width: auto;
   border-radius: 8px;
-  border: none;
+  border: 5px solid blue;
+}
+
+.quote-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  flex: auto;
+  background: #E5E7EB;
+  color: #1f2937;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: light;
+}
+
+.quote-name {
+  display: flex;
+  margin-left: 50rem; 
+  font-weight: 700;
 }
 
 .footer-text {
@@ -131,9 +165,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #22a37d;
+  background: #bdc1d8;
 }
 
 .footer-text p {
-  color: white;
+  color: rgb(27, 24, 24);
 }
