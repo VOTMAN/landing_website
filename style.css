@@ -140,8 +140,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10rem;
-  flex: auto;
+  padding: 9rem;
+  margin-top: 5rem;
+  flex: 1;
   background: #E5E7EB;
   color: #1f2937;
   flex-direction: column;
@@ -151,17 +152,20 @@ img {
 .quote {
   font-size: 36px;
   font-weight: light;
+  margin-left: 6.5rem;
 }
 
 .quote-name {
   display: flex;
-  margin-left: 50rem; 
+  margin-left: 36rem; 
   font-weight: 700;
 }
 
+
+
 .footer-text {
   margin-top: auto;
-  padding: 10px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
