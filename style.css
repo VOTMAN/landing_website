@@ -46,7 +46,6 @@ a {
 .right-links {
   text-decoration: none;
   color: rgb(167, 157, 157);
-  text-wrap: balance;
   transition: .5s color;
 }
 
