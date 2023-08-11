@@ -144,8 +144,8 @@ img {
 
 .quote-holder {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   padding: 9rem;
   margin-top: 5rem;
   flex: 1;
@@ -163,7 +163,6 @@ img {
 
 .quote-name {
   display: flex;
-  margin-left: 36rem; 
   font-weight: 700;
 }
 
